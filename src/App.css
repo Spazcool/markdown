@@ -46,10 +46,10 @@ a:hover {
 
 #home {
     position: absolute;
-    left: 0.5vw;
-    top: 0.5vw;
-    width: 4vh;
-    height: 4vh;
+    left: 0.8vw;
+    top: 0.8vw;
+    width: 5vh;
+    height: 5vh;
 }
 
 #home:hover {
