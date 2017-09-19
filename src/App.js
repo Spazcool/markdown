@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 import home from './home-button-png-icon-30.png';
 import './App.css';
 import Convert from './Convert.js';
-import { Well } from 'react-bootstrap';
-// CANT GET JQ TO WORK HERE
-// import $ from 'jquery';
-// var hexContainer = $("#left").css("height");
-// console.log(hexContainer);
-const wellInstance = (
-  <Well>Look I'm in a well!</Well>
-);
 
 class App extends Component {
     constructor(props) {
@@ -27,25 +19,25 @@ class App extends Component {
     render() {
       return (
         <div className="App">
+
             <div className="App-header">
                 <a href="http://www.spazcool.com">
                     <img src={home} id="home" alt="home"/>
                 </a>
-                <div>
-                  Super Sexy Markdown Previewer / link to fcc challenge page
+                <div id="title">
+                  <a href="https://www.freecodecamp.org/challenges/build-a-markdown-previewer" id="fccLink">Down with the Mark</a>
                 </div>
             </div>
+
             <div className="boxes">
                 <textarea type="text" onChange={this.handleUserInput} value={this.state.userInput} className="box" id="left"/>
-
-            <Convert output={this.state.userInput} className="box" id="right">
-                </Convert>
-
+                <Convert output={this.state.userInput} className="box" id="right" />
             </div>
+
             <div className="footer">
-              fuck
-              <Well>fuck</Well>
+                Created by <a href="https://github.com/Spazcool" id="myLink">Doug</a>.
             </div>
+
       </div>
       );
     }

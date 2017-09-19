@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Well } from 'react-bootstrap';
+
 // import $ from 'jquery';
 
 var marked = require('marked');
@@ -11,7 +13,7 @@ function markItUp(a) {
 class Convert extends Component {
     render() {
       return (
-        <div dangerouslySetInnerHTML = {markItUp(marked(this.props.output))} className="box" id="right"/>
+        <Well dangerouslySetInnerHTML = {markItUp(marked(this.props.output))} className="box" id="right"/>
       );
     }
 }
