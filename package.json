@@ -1,7 +1,12 @@
 {
-  "name": "fuck",
+  "name": "React Markdown Previewer",
+  "author": "Douglas Wright",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Spazcool.github.io/markdown",
+  "dev-dependencies": {
+    "gh-pages": "^1.1.0"
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",

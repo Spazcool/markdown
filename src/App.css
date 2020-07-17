@@ -1,5 +1,5 @@
 body {
-    background-image: url("hypnotize.png");
+    background-image: url("./images/hypnotize.png");
 }
 
 a {
@@ -11,63 +11,44 @@ a:hover {
     color: hotpink;
 }
 
-.App {}
-
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
-}
-
 .App-header {
     text-align: center;
     background-color: #696969;
     min-height: 10vh;
-    padding: 20px;
     color: white;
 }
 
-#fccLink {
+#title {
     text-decoration: none;
     color: #FFF;
-    /*font-family: 'Diplomata+SC';*/
-    /*font-family: 'Holtwood+One+SC';*/
     font-family: 'Lobster';
     font-weight: bold;
-}
-
-#fccLink:hover {
-    color: hotpink;
-}
-
-#title {
-    padding: 0px 30px 0px 30px;
+    padding: 2em;
     font-size: 2em;
+    line-height: 10vh;
 }
 
 #home {
-    position: absolute;
-    left: 0.8vw;
-    top: 0.8vw;
-    width: 5vh;
-    height: 5vh;
-}
-
-#home:hover {
-    filter: invert(100%);
+  float: left;
+  line-height: 10vh;
+  padding-left:3vh;
+  font-size: 2em;
 }
 
 .App-intro {
     font-size: large;
 }
 
-.boxes {}
+.boxes {
+  margin-top: 2em;
+}
 
 .box {
-    margin: 2vw 9vw;
     min-height: 75vh;
-    width: 30%;
+    width: 100%;
     font-size: 100%;
     word-wrap: break-word;
+    padding: 1em;
 }
 
 textarea {
@@ -76,26 +57,23 @@ textarea {
 }
 
 #left {
-    float: left;
+    padding: 1em;
+    height:100%;
+    width: 100%;
     background-color: #FFE4E1;
 }
 
 #right {
-    padding-left: 1vw;
-    float: right;
-    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #a2a2b6;
+    padding: 1em;
     background-color: #E6E6FA;
 }
 
 .footer {
-    /*border: 1px solid #000;*/
-    /*margin: 0 auto;*/
-    /*color: black;*/
-    font-size: 20px;
+    font-size:1.5em;
     text-align: center;
-    position: absolute;
-    bottom: 0%;
-    padding-bottom: 0.2em;
+    padding: 1em;
     width: 100%;
     font-family: 'Lobster', cursive;
 }

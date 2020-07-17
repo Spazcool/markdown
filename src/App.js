@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import home from './home-button-png-icon-30.png';
 import './App.css';
 import Convert from './Convert.js';
 
@@ -20,24 +19,35 @@ class App extends Component {
       return (
         <div className="App">
 
-            <div className="App-header">
-                <a href="http://www.spazcool.com">
-                    <img src={home} id="home" alt="home"/>
-                </a>
-                <div id="title">
-                  <a href="https://www.freecodecamp.org/challenges/build-a-markdown-previewer" id="fccLink">Down with the Mark</a>
+            <header className="App-header">
+              <a href="http://www.spazcool.com">
+                <i className="fas fa-home" id="home"></i>
+              </a>
+              <span id="title">Down with the Mark</span>
+            </header>
+
+            <main className='container'>
+              <div className="row boxes">
+                <div className='col-sm-12 col-md-6 box'>
+                  <textarea 
+                    type="text" 
+                    onChange={this.handleUserInput} 
+                    value={this.state.userInput} 
+                    id="left"
+                  />
                 </div>
-            </div>
+                <div className='col-sm-12 col-md-6 box'>
+                  <Convert 
+                    output={this.state.userInput} 
+                    id="right" 
+                  />
+                </div>
+              </div>
+            </main>
 
-            <div className="boxes">
-                <textarea type="text" onChange={this.handleUserInput} value={this.state.userInput} className="box" id="left"/>
-                <Convert output={this.state.userInput} className="box" id="right" />
-            </div>
-
-            <div className="footer">
-                Created by <a href="https://github.com/Spazcool" id="myLink">Doug</a>.
-            </div>
-
+            <footer className="footer">
+                Built with <i className="fab fa-react"></i> by <a id="myLink" href='https://github.com/Spazcool'>Doug Wright</a>.
+            </footer>
       </div>
       );
     }

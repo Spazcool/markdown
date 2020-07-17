@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { Well } from 'react-bootstrap';
 
-// import $ from 'jquery';
-
 var marked = require('marked');
 
 function markItUp(a) {
