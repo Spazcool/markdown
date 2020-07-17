@@ -1,6 +1,11 @@
 # freeCodeCamp React.JS Markdown Previewer
 
-This is my markdown previewer, created using React, CSS & HTML as one of the projects to freeCodeCamp's data visualization program.
+A markdown previewer, created using React, CSS & HTML as one of the projects to freeCodeCamp's data visualization program. Simply enter the markdown text in the left/red 
+
+<p align="center">
+   <img width="70%" height="300vh" src="./images/desktop.gif">
+   <img width="20%" height="300vh" src="./images/mobile.gif">
+</p>
 
 ## Getting Started
 
@@ -16,9 +21,11 @@ No installation required.
 
 ## Built With
 
+* JS
 * React
 * HTML
 * CSS
+* Bootstrap
 
 ## Authors
 
@@ -27,7 +34,3 @@ No installation required.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* [freeCodeCamp's Markdown Previewer Project](https://www.freecodecamp.org/challenges/build-a-markdown-previewer)
