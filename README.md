@@ -3,8 +3,8 @@
 A markdown previewer, created using React, CSS & HTML as one of the projects to freeCodeCamp's data visualization program. Simply enter the markdown text in the left/red 
 
 <p align="center">
-   <img width="70%" height="300vh" src="./images/desktop.gif">
-   <img width="20%" height="300vh" src="./images/mobile.gif">
+   <img width="70%" height="300vh" src="./public/images/desktop.gif">
+   <img width="20%" height="300vh" src="./public/images/mobile.gif">
 </p>
 
 ## Getting Started
