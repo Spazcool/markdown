@@ -11,7 +11,7 @@
     "gh-pages": "^1.1.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.5.0",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "marked": "^0.3.6",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
